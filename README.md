@@ -189,7 +189,7 @@ plt.show()
 
 
     
-![png](output_6_0.png)
+![png](images/output_6_0.png)
     
 
 
@@ -217,7 +217,7 @@ plt.show()
 
 
     
-![png](output_11_0.png)
+![png](images/output_11_0.png)
     
 
 
@@ -235,7 +235,7 @@ plt.show()
 
 
     
-![png](output_13_0.png)
+![png](images/output_13_0.png)
     
 
 
@@ -263,7 +263,7 @@ plt.show()
 
 
     
-![png](output_15_0.png)
+![png](images/output_15_0.png)
     
 
 
@@ -284,7 +284,7 @@ plt.show()
 
 
     
-![png](output_17_0.png)
+![png](images/output_17_0.png)
     
 
 
@@ -307,12 +307,13 @@ plt.show()
 
 
     
-![png](output_20_0.png)
+![png](images/output_20_0.png)
     
 
 
 No reall practial application in this part, was interested to see how the hyper-image would look like if the PCs<br>
 are represented in the RGBA format and an image is composed out of them. Looks neat.
+
 
 
 ```python
@@ -326,8 +327,8 @@ for i in range(4):
 rgba_array = np.hstack(rgba_list)
 rgba_img = rgba_array.reshape(roi_val.shape[0], roi_val.shape[1], 4)
 resulting_img = Image.fromarray(rgba_img,  mode='RGBA')
-resulting_img.save('rgba_img.png', 'PNG')
 ```
+![png](images/rgba_img.png)
 
 
 ```python
@@ -361,7 +362,7 @@ visual_loadings(pca)
 
 
     
-![png](output_25_0.png)
+![png](images/output_25_0.png)
     
 
 
@@ -416,7 +417,7 @@ plot_2nd_main(0)
 
 
     
-![png](output_29_0.png)
+![png](images/output_29_0.png)
     
 
 
@@ -437,6 +438,6 @@ plt.show()
 
 
     
-![png](output_31_0.png)
+![png](images/output_31_0.png)
     
 
