@@ -141,16 +141,6 @@ filtered_abs_data = median_filter(absorbance_data, size=filter_size)
 
 # Save the data for faster loading if you want
 # np.save(save_preprocessed_data_to, filtered_abs_data)
-```
-
-    C:\Users\daniil\AppData\Local\Temp\ipykernel_17456\3326729170.py:50: RuntimeWarning: divide by zero encountered in log10
-      absorbance_data = -np.log10(intensisty_data)
-    C:\Users\daniil\AppData\Local\Temp\ipykernel_17456\3326729170.py:50: RuntimeWarning: invalid value encountered in log10
-      absorbance_data = -np.log10(intensisty_data)
-    
-
-    Number of undefined values:7207
-    
 
 
 ```python
