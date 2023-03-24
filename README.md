@@ -7,12 +7,12 @@ of it.
 Some parts of the proejct,
 1) Initial pre-processing of raw data - normalaaztion of raw intensities (with 'black' and 'white' standards)
 2) Conversion of reflectence data to absorbance
-are  based on the work of (Awais et al.)[https://pubs.acs.org/doi/10.1021/acsabm.0c00626], while most of the PCA/clustering analysis as well as loadings analysis
+are  based on the work of [Awais et al.](https://pubs.acs.org/doi/10.1021/acsabm.0c00626), while most of the PCA/clustering analysis as well as loadings analysis
 was thought of and performed in the group
 
 # Involved people
 
-Appart from myself, two of my project mates were (Mikolaj)[https://github.com/CoderMikolaj] and (Enriqueta)[https://www.aalto.fi/en/people/enriqueta-noriega-benitez]. The approach and general solutions were developed together while most of the code was written separetly, appart from the second cell in the (notebook)[https://github.com/weenke/NIR_hyperimage/blob/main/nir_hyperiamge_analysis.ipynb] it was written primarly by Mikolaj and used by all of us for the sake of simillarity of inital data.
+Appart from myself, two of my project mates were [Mikolaj](https://github.com/CoderMikolaj) and [Enriqueta](https://www.aalto.fi/en/people/enriqueta-noriega-benitez). The approach and general solutions were developed together while most of the code was written separetly, appart from the second cell in the [notebook](https://github.com/weenke/NIR_hyperimage/blob/main/nir_hyperiamge_analysis.ipynb) it was written primarly by Mikolaj and used by all of us for the sake of simillarity of inital data.
 
 # Visual explanation of the notebook
 
